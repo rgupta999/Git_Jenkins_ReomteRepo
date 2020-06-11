@@ -26,10 +26,6 @@ public class Git_Jenkins_TestBase {
 	}
 	
 	
-	@AfterSuite
-	public void tearDown()
-	{
-		driver.quit();
-	}
+	
 
 }
