@@ -19,7 +19,7 @@ public class Git_Jenkins_TestBase {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\granj\\selenium\\eclipse-workspace\\DataDrivenFramework\\src\\test\\resources\\executables\\chromedriver.exe");
 	    driver= new ChromeDriver();
 		driver.get("http://www.facebook.com");
-		
+		driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
 		
